@@ -11,7 +11,9 @@
 - Cover that MAC learning from a wireless interface is by default taken from the registration table
 - [depending on the switch chip fitted to a RouterBOARD, some of the bridge features will disable HW-offloading](https://wiki.mikrotik.com/wiki/Manual:Interface/Bridge#Bridge_Hardware_Offloading)
 - Explain how some of the features that are available in the switch menu and on the switch chip don’t work when bridge HW-offloading is disabled due to selecting those specific features.
-- [x] [effect of VLAN & QinQ on MTU](https://groups.geni.net/geni/wiki/QinqResults). В 802.1q EtherType 0x8100 и размер заголовка входит в Frame. Total Frame Size теперь 1500+18+4. MTU теперь 1500-4.В 802.1ad EtherType Service тэга 0x8a88 и он не считается во фрейме. Total Frame Size = 1500+18+4+4= 1526. Теперь MTU 1500-0-4 
+- [x] [effect of VLAN & QinQ on MTU](https://groups.geni.net/geni/wiki/QinqResults).
+   В 802.1q EtherType 0x8100 и размер заголовка входит в Frame. При двух тегах Total Frame Size теперь 1500+18+4+4= 1526. MTU теперь 1500-4-4
+   В 802.1ad EtherType Service тэга 0x8a88 и он не считается во фрейме. Total Frame Size = 1500+18+4+4= 1526. Теперь MTU 1500-0-4 
 - 3 ways of doing VLANs in RouterOS and how not to mix and match them:
     1. Virtual VLAN interface (and bridging together)
     2. VLANs on switch menu (found on some units with basic switch chips)
