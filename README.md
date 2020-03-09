@@ -1,6 +1,9 @@
 [Manual:Switch Chip Features](https://wiki.mikrotik.com/wiki/Manual:Switch_Chip_Features)
+
 [Manual:CRS1xx/2xx series switches](https://wiki.mikrotik.com/wiki/Manual:CRS1xx/2xx_series_switches)
+
 [Manual:CRS3xx series switches](https://wiki.mikrotik.com/wiki/Manual:CRS3xx_series_switches)
+
 [MTU](https://wiki.mikrotik.com/wiki/Manual:Maximum_Transmission_Unit_on_RouterBoards)
 
 ### Узнать про
