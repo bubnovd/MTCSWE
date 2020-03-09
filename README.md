@@ -14,6 +14,14 @@
    В 802.1ad EtherType Service тэга 0x8a88 и он не считается во фрейме. Total Frame Size = 1500+18+4+4= 1526. Теперь MTU 1500-0-4 
 
 - [x] why NOT to add vlan interfaces as untagged ports in a bridge, for both regular traffic and management interface: [It will cause problems if also using STP/RSTP with other vendor’s switches because BPDUs are tagged](https://wiki.mikrotik.com/wiki/Manual:Layer2_misconfiguration#VLAN_on_a_bridge_in_a_bridge)
+
+### Labs
+1. Проверить работу QinQ с разными тегами. Обратить внимание на MTU, L2MTU. Проверить Wireshark'ом
+2. [InterVLAN Routing on CRS3xx](https://wiki.mikrotik.com/wiki/Manual:CRS_Router#InterVLAN_Routing_2)
+3. MAC VLAN
+
+### Facts
+- [CRS3xx is designed to use the built-in switch chip to work with bridge VLAN filtering](https://wiki.mikrotik.com/wiki/Manual:CRS3xx_series_switches#VLAN_Filtering)
 ### Узнать про
 - Explain what happens if the bridge has not yet learned a destination MAC address or multicast group (unknown unicast and unknown multicast flood)
 - Cover that MAC learning from a wireless interface is by default taken from the registration table
@@ -28,3 +36,5 @@
 - how to use frame-types setting with ingress filtering
 - how to create a Management interface in a VLAN and how the only link between Switch and CPU is the bridge interface
 - how ingress filtering works on bridge interface, this is not a global setting for bridge but for interface between switch and the CPU
+
+
