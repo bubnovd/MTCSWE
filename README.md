@@ -14,6 +14,9 @@
    В 802.1ad EtherType Service тэга 0x8a88 и он не считается во фрейме. Total Frame Size = 1500+18+4+4= 1526. Теперь MTU 1500-0-4 
 
 - [x] why NOT to add vlan interfaces as untagged ports in a bridge, for both regular traffic and management interface: [It will cause problems if also using STP/RSTP with other vendor’s switches because BPDUs are tagged](https://wiki.mikrotik.com/wiki/Manual:Layer2_misconfiguration#VLAN_on_a_bridge_in_a_bridge)
+- [x] only 802.3ad and balance-xor are supported with HW-offloading
+- 802.3ad is compatible with other vendors using LACP
+- Balance-xor is compatible with other vendors static LAG
 
 ### Labs
 1. Проверить работу QinQ с разными тегами. Обратить внимание на MTU, L2MTU. Проверить Wireshark'ом
