@@ -22,9 +22,14 @@
 1. Проверить работу QinQ с разными тегами. Обратить внимание на MTU, L2MTU. Проверить Wireshark'ом
 2. [InterVLAN Routing on CRS3xx](https://wiki.mikrotik.com/wiki/Manual:CRS_Router#InterVLAN_Routing_2)
 3. MAC VLAN
+4. Проверить QoS на CRS3xx
 
 ### Facts
 - [CRS3xx is designed to use the built-in switch chip to work with bridge VLAN filtering](https://wiki.mikrotik.com/wiki/Manual:CRS3xx_series_switches#VLAN_Filtering)
+- On CRS3xx For ingress traffic QoS policer is used, for egress traffic QoS shaper is used.
+- DHCP Snooping blocks ALL DHCP packets not just replies like some other vendors
+- ARP Table Size /ip settings set max-neighbor-entries
+
 ### Узнать про
 - Explain what happens if the bridge has not yet learned a destination MAC address or multicast group (unknown unicast and unknown multicast flood)
 - Cover that MAC learning from a wireless interface is by default taken from the registration table
@@ -39,5 +44,8 @@
 - how to use frame-types setting with ingress filtering
 - how to create a Management interface in a VLAN and how the only link between Switch and CPU is the bridge interface
 - how ingress filtering works on bridge interface, this is not a global setting for bridge but for interface between switch and the CPU
-
-
+- Lab to show bridge split horizon in action
+- Lab to show CRS Port isolation
+- Local Proxy ARP (how 2 devices can now communicate with port isolation which they could not before)
+- bridge port learn mode
+- [802.1X](https://wiki.mikrotik.com/wiki/Manual:Interface/Dot1x)
