@@ -35,7 +35,7 @@
 5. Tag stacking
 - [x] 6. 3 ways of doing VLANs: Virtual VLAN interface (and bridging together), VLANs on switch menu, Bridge VLAN filtering
 7. Ingress/Egress Filtering
-8. CRS Port isolation
+- [x] 8. CRS Port isolation
 9. Lab to show bridge split horizon in action
 10. Local Proxy ARP (how 2 devices can now communicate with port isolation which they could not before)
 - [x] 11. Management VLAN on switch
