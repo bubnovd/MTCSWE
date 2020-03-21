@@ -33,12 +33,12 @@
 3. MAC(CRS)/Port/Protocol VLAN
 4. Проверить QoS на CRS3xx: MAC, port, Protocol, DSCP, VLAN
 5. Tag stacking
-6. 3 ways of doing VLANs: Virtual VLAN interface (and bridging together), VLANs on switch menu, Bridge VLAN filtering
+- [x] 6. 3 ways of doing VLANs: Virtual VLAN interface (and bridging together), VLANs on switch menu, Bridge VLAN filtering
 7. Ingress/Egress Filtering
 8. CRS Port isolation
 9. Lab to show bridge split horizon in action
 10. Local Proxy ARP (how 2 devices can now communicate with port isolation which they could not before)
-11. Management VLAN on switch
+- [x] 11. Management VLAN on switch
 12. BPDU Guard + Wireshark
 13. [Storm Control On CRS3xx](https://wiki.mikrotik.com/wiki/Manual:CRS3xx_series_switches#Traffic_Storm_Control)
 14. Proxy ARP VS Local Proxy ARP
