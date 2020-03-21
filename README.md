@@ -15,6 +15,9 @@
 ## Lab Diagram
 ![diagram](lab1.png)
 
+[Запись лабы](https://www.youtube.com/watch?v=f9LZNjU2l7I)
+Дампы трафика из лаб приложены
+
 ### Resolved
 - [x] [effect of VLAN & QinQ on MTU](https://groups.geni.net/geni/wiki/QinqResults).
 
