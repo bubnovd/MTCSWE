@@ -30,7 +30,7 @@
 ### Labs
 - [x]  1. Проверить работу QinQ с разными тегами. Обратить внимание на MTU, L2MTU. Проверить Wireshark'ом
 2. [InterVLAN Routing on CRS3xx](https://wiki.mikrotik.com/wiki/Manual:CRS_Router#InterVLAN_Routing_2)
-3. MAC(CRS)/Port/Protocol VLAN
+- [x] 3. MAC(CRS)/Port/Protocol VLAN
 4. Проверить QoS на CRS3xx: MAC, port, Protocol, DSCP, VLAN
 5. Tag stacking
 - [x] 6. 3 ways of doing VLANs: Virtual VLAN interface (and bridging together), VLANs on switch menu, Bridge VLAN filtering
