@@ -12,6 +12,9 @@
 
 [Мои топологии и описание лаб по CCNA](https://github.com/bubnovd/Labs)
 
+## Lab Diagram
+![diagram](lab1.png)
+
 ### Resolved
 - [x] [effect of VLAN & QinQ on MTU](https://groups.geni.net/geni/wiki/QinqResults).
 
